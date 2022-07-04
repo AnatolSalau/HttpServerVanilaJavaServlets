@@ -12,7 +12,7 @@ public class StartServletGetPost extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter printWriter = resp.getWriter();
-        printWriter.println("Hello");
+        printWriter.println("Hello from servlet");
     }
 
     @Override
