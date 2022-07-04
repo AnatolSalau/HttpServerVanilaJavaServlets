@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="vanilajava">
+    <output-path>$PROJECT_DIR$/out/artifacts/vanilajava</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HttpVanilaJava_Server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jakarta.servlet:jakarta.servlet-api:5.0.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="HttpVanilaJava_Server/web/Web" />
+    </root>
+  </artifact>
+</component>
